@@ -1,0 +1,64 @@
+.imagesBlock {
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px 120px;
+    grid-template-rows: 135px 135px 135px;
+    margin: 10px;
+}
+
+.butMore {
+    position: relative;
+    margin: 8px 0 0 222px;
+    border-radius: 4px;
+    height: 44px;
+    min-width: 78px;
+    padding: 0 19.5555555556px;
+    cursor: pointer;
+    border-style: none;
+    letter-spacing: .0892857143em;
+    color: #fff;
+    font: inherit;
+    text-indent: 0.0892857143em;
+    background-color: #2196f3 !important;
+    transition: .35s ease
+}
+
+.butMore:hover { 
+    background-color: #3ba3f8 !important;
+}
+.butMore i {
+    position: absolute;
+    left: 15px;
+    top: 14px
+}
+
+.butMoreContent {
+    margin-left: 20px;
+}
+
+.block {
+    position: relative;
+}
+
+.images {
+    height: 100px;
+    width: 100px;
+    transition: .35s ease;
+}
+
+.images:hover {
+    box-shadow: 0px 3px 5px 2px #767676;
+}
+
+
+.block span {
+    right: 26px;
+    top: 53%;
+    position: absolute;
+    cursor: pointer;
+    transition: .35s ease;
+    opacity: 0;
+}
+
+.block span:hover {
+    opacity: 1;
+}

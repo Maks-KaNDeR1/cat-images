@@ -1,0 +1,34 @@
+.paginator {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: 600px;
+}
+
+
+.pageNumber.selectedPage {
+    color: rgb(30, 56, 202);
+    font-weight: bold;
+    border: 1px solid rgb(0, 166, 255);
+}
+
+.paginator button {
+    margin: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color:  rgb(89, 103, 147);
+    padding: 0px 3px;
+    border: 1px solid rgb(0, 166, 255);
+    background-color: #fff;
+    letter-spacing: 1px;
+
+}
+
+
+.paginator button:hover {
+    background-position: right center;
+    transform: scale(1.02);
+}
+
+

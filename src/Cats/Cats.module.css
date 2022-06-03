@@ -1,0 +1,41 @@
+
+.imagesBlock {
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px 120px;
+    grid-template-rows: 135px 135px 135px;
+    margin: 10px;
+}
+
+.block {
+    position: relative;
+    margin-left: 10px;
+}
+
+.images {
+    height: 100px;
+    width: 100px;
+    transition: .35s ease;
+}
+
+.images:hover {
+    box-shadow: 0px 3px 5px 2px #767676;
+}
+
+.block span  {
+    right: 20px;
+    top: 53%;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+
+.block div {
+    right: 20px;
+    top: 53%;
+    position: absolute;
+}
+
+.block span:hover {
+    opacity: 1;
+}
